@@ -47,7 +47,7 @@ while(chance<10):
 
     elif your_choice == 'g' and choice == 'g':
         print("match draw!\n")
-        #my_points = my_points + 1
+        my_points = my_points + 1
         print("your_points=", your_points)
         print("my points", my_points)
         print("round lest:", 9 -chance)
@@ -71,7 +71,7 @@ while(chance<10):
 
     elif your_choice == 'w' and choice == 'w':
         print("lots of water : its draw")
-        #my_points = my_points + 1
+        my_points = my_points + 1
         print("your_points=", my_points)
         print("my points", my_points)
         print("round lest:", 9 - chance)
